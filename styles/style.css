@@ -5,12 +5,11 @@
   font-style: normal;
 }
 
-/* ------------to become a developer------------ */
+/* ------------Banner section------------ */
 *{
     margin: 0;
     padding: 0;
 }
-
 .banner-content{
     background-image: url(../images/assets/Hero-bg.png);
     margin: 0 auto;
@@ -21,23 +20,19 @@
     height: 652px;
     margin-top: 131px;
     text-align: center;
+    margin-bottom: 74px;
 }
-
 .banner-img{
     margin-top: 10px;
 }
-
-
 .banner-head{
    font-size: 48px; 
    margin-bottom: 24px;
 
 }
-
 .banner-paragraph{
     font-size: 16px;
 }
-
 #btn-primary{
     background-color: #0D1321;
     font-weight: bold;
@@ -47,4 +42,38 @@
     border-radius: 8px;
     margin-top: 32px;
     margin-bottom: 45px;
+}
+
+/* ------------------Development section----------- */
+.development{
+    border: 2px solid red;
+    background-color: #ADC8F7;
+    height: 1320px;
+    margin-left: 148px;
+    margin-right: 152px;
+}
+.secction-title{
+    font-size: 32px;
+    font-weight: bolder;
+}
+.section-description{
+    text-align: center;
+    margin-top: 154px;
+    margin-bottom: 96px;
+}
+.doing-coding{
+    display: flex;
+}
+.coding-title{
+    font-size: 24px;
+    font-weight: bold;
+    color: #0D1321;
+}
+.coding-description{
+
+}
+.btn-share{
+    font-size: 20px;
+    font-weight: 600px;
+    color: #0D1321;
 }
