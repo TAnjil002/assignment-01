@@ -165,7 +165,57 @@
 }
 .skill-container-1{
     background-color: rgba(255, 76, 30, 0.05);
-    padding: 40px;
     border-radius: 16px;
+    margin: 0;
+    padding: 0;
+    width: 33%;
+    height: 299px;
+    box-sizing: border-box; 
     
+    margin-top: 48px; 
+}
+.skill-container-2{
+    background-color: rgba(0, 76, 232, 0.05);
+    height: 299px;
+    border-radius: 16px;
+    margin: 0;
+    padding: 0;
+    width: 33%;
+    box-sizing: border-box; 
+    display: flex;
+    justify-content: center; 
+    flex-wrap: wrap;
+    margin-top: 48px; 
+}
+.skill-container-3{
+    background-color: rgba(255, 223, 0, 0.05);
+    height: 299px;
+    border-radius: 16px;
+    margin: 0;
+    padding: 0;
+    width: 33%;
+    box-sizing: border-box; 
+    display: flex;
+    justify-content: center; 
+    flex-wrap: wrap;
+    margin-top: 48px; 
+}
+
+/* ---------Support section-------- */
+.support{
+    margin-top: 115px;
+    
+    
+}
+.support-title{
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+}
+.support-content{
+    text-align: center;
+}
+.suppor-box{
+    display: flex;
+    justify-content: center;
 }
