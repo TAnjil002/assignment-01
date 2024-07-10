@@ -213,7 +213,6 @@
 }
 .support{
     margin-top: 115px;
-    margin-top: 64px;
     
     
 }
@@ -221,8 +220,8 @@
     font-size: 32px;
     font-weight: bold;
     text-align: center;
-    margin-top: 64px;
     margin-bottom: 16ppx;
+    margin-top: 64px;
 }
 .support-content{
     text-align: center;
@@ -244,4 +243,19 @@
     padding: 20px 60px;
     display: inline-block;
 
+}
+/* ------------footer section---------- */
+.footer-section{
+    background-color: rgba(13, 19, 33, 0.03);
+    
+}
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-title{
+    margin-left: 150px;
+}
+.footer-icon{
+    margin-right: 150px;
 }
