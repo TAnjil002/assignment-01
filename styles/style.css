@@ -42,6 +42,11 @@
     border-radius: 8px;
     margin-top: 32px;
     margin-bottom: 45px;
+    
+}
+.contact-btn{
+    color: white;
+    text-decoration: none;
 }
 
 /* ------------------Development section----------- */
@@ -247,15 +252,22 @@
 /* ------------footer section---------- */
 .footer-section{
     background-color: rgba(13, 19, 33, 0.03);
+    height: 100px;
+    margin-top: 80px;
+   
     
 }
 .footer-content{
     display: flex;
     justify-content: space-between;
+    
+    
 }
 .footer-title{
     margin-left: 150px;
+    margin-top: 40px;
 }
 .footer-icon{
     margin-right: 150px;
+    margin-top: 40px;
 }
