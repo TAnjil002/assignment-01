@@ -236,17 +236,20 @@
 .supports{
     display: flex;
     justify-content: center;
+    
    
 }
 .support-input{
     display: inline;
     padding: 20px 90px;
     display: inline-block;
+    border-radius: 8px;
 }
 .submit-input{
     display: inline;
     padding: 20px 60px;
     display: inline-block;
+    border-radius: 8px;
 
 }
 /* ------------footer section---------- */
