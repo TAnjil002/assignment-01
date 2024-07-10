@@ -46,34 +46,50 @@
 
 /* ------------------Development section----------- */
 .development{
-    border: 2px solid red;
-    background-color: #ADC8F7;
+    background-color: rgba(13, 19, 33, 0.02);
     height: 1320px;
+    margin-top: 74px;
     margin-left: 148px;
     margin-right: 152px;
 }
 .secction-title{
-    font-size: 32px;
+    font-size: 24px;
     font-weight: bolder;
 }
 .section-description{
     text-align: center;
-    margin-top: 154px;
+    margin-top: 160px;
     margin-bottom: 96px;
 }
 .doing-coding{
     display: flex;
+    justify-content: space-between;
+    margin-left: 145px;
+    margin-right: 145px;
+    padding: 35px;
+    background-color: #FFFFFF;
+    border-radius: 16px;
 }
-.coding-title{
-    font-size: 24px;
+.title{
+    font-size: 30px;
     font-weight: bold;
     color: #0D1321;
-}
-.coding-description{
-
+    margin-bottom: 16px;
 }
 .btn-share{
+    color: #0D1321;
     font-size: 20px;
     font-weight: 600px;
-    color: #0D1321;
+    padding: 14px 25px;
+    margin-top: 32px;
+}
+.helping-people{
+    display: flex;
+    justify-content: space-between;
+    margin: 32px;
+    margin-left: 145px;
+    margin-right: 145px;
+    padding: 35px;
+    background-color: #FFFFFF;
+    border-radius: 16px;
 }
