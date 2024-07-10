@@ -49,7 +49,7 @@
     background-color: rgba(13, 19, 33, 0.02);
     height: 1320px;
     margin-top: 74px;
-    margin-left: 148px;
+    margin-left: 154px;
     margin-right: 152px;
 }
 .secction-title{
@@ -126,9 +126,9 @@
 }
 /* ---------------Target section-------------------- */
 .target{
-    margin-top: 151px;
-    margin-left: 148px;
-    margin-right: 152px;
+    margin-top: 90px;
+    margin-left: 90px;
+    margin-right: 150px;
 }
 .curreent-target{
     margin-top: 151px;
@@ -166,44 +166,54 @@
 .skill-container-1{
     background-color: rgba(255, 76, 30, 0.05);
     border-radius: 16px;
-    margin: 0;
-    padding: 0;
+    margin-right: 24px; 
+    padding: 40px;
     width: 33%;
-    height: 299px;
+    height: 320px;
     box-sizing: border-box; 
-    
     margin-top: 48px; 
 }
 .skill-container-2{
     background-color: rgba(0, 76, 232, 0.05);
-    height: 299px;
     border-radius: 16px;
-    margin: 0;
-    padding: 0;
+    margin-right: 24px;
+    padding: 40px;
     width: 33%;
+    height: 320px;
     box-sizing: border-box; 
-    display: flex;
-    justify-content: center; 
-    flex-wrap: wrap;
-    margin-top: 48px; 
+    margin-top: 48px;
 }
 .skill-container-3{
     background-color: rgba(255, 223, 0, 0.05);
-    height: 299px;
+    
     border-radius: 16px;
     margin: 0;
-    padding: 0;
+    padding: 40px;
     width: 33%;
+    height: 320px;
     box-sizing: border-box; 
-    display: flex;
-    justify-content: center; 
-    flex-wrap: wrap;
     margin-top: 48px; 
 }
 
 /* ---------Support section-------- */
+.support-section{
+    background-image: url(../images/assets/handshake.jpg);
+    margin: 0 auto;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    align-content: center;
+    height: 313px;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 131px;
+    border-radius: 16px;
+    text-align: center;
+    margin-bottom: 74px;
+}
 .support{
     margin-top: 115px;
+    margin-top: 64px;
     
     
 }
@@ -211,11 +221,27 @@
     font-size: 32px;
     font-weight: bold;
     text-align: center;
+    margin-top: 64px;
+    margin-bottom: 16ppx;
 }
 .support-content{
     text-align: center;
+    margin-bottom: 24px;
 }
-.suppor-box{
+
+.supports{
     display: flex;
     justify-content: center;
+   
+}
+.support-input{
+    display: inline;
+    padding: 20px 90px;
+    display: inline-block;
+}
+.submit-input{
+    display: inline;
+    padding: 20px 60px;
+    display: inline-block;
+
 }
