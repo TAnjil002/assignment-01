@@ -53,6 +53,7 @@
     margin-right: 152px;
 }
 .secction-title{
+    padding-top: 80px;
     font-size: 24px;
     font-weight: bolder;
 }
@@ -92,4 +93,28 @@
     padding: 35px;
     background-color: #FFFFFF;
     border-radius: 16px;
+}
+
+/* ---------------inspiration section--------------- */
+.inspiration-section{
+    margin: 0 auto;
+    text-align: center;
+    width: 1140px;
+    height: 775px;  
+    
+}
+.inpiration-title{
+    font-size: 32px;
+    font-weight: 800px;
+    margin-top: 90px;
+    margin-bottom: 24px;
+}
+.inspiration-content{
+    margin-top: 24px;
+    margin-bottom: 48px;
+}
+.video-content{
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
 }
